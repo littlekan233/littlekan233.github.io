@@ -3,7 +3,7 @@ mode: auto
 # UI
 banner:
   enable: true
-  title: 小阚の小破站
+  title: 小阚的小破站
   border: true
   cloud:
     enable: true
