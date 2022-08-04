@@ -79,15 +79,15 @@ giscus:
   theme: light
 
 footer:
-  since: 2016
+  since: 2022
   icon:
     url: https://sponsors.yunyoujun.cn
     title: 云游君的赞助者们
   beian:
-    enable: true
+    enable: false
     icp: 苏ICP备17038157号
   support:
-    enable: true
+    enable: false
     title: 又拍云
     link: https://www.upyun.com
     logo: https://cdn.yunyoujun.cn/img/logo/upyun-logo.png
