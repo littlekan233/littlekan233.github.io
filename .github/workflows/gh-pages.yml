@@ -18,6 +18,10 @@ jobs:
         run: npm i
       - run: npm run build
 
+
+      - name: Automantic Deploy with Hexo Action
+        uses: sma11black/hexo-action@v1.0.4
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
