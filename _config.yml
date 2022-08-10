@@ -14,7 +14,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://www.littlekan.ml
-permalink: :year/:month/:day/:title/
+permalink: p/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -104,4 +104,4 @@ theme: yun
 deploy:
   type: git
   repo: https://github.com/littlekan233/littlekan233.github.io.git
-  branch: master
+  branch: gh-pages
