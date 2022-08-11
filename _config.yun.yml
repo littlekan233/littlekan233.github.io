@@ -161,9 +161,9 @@ google_tagmanager:
   id: GTM-MKM8KST
 
 say:
-  api: https://el-bot-api.vercel.app/api/words/young
+  api: https://v1.hitokoto.cn/
   hitokoto:
-    enable: false
+    enable: true
 
 social:
   - name: RSS
