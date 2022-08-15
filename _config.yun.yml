@@ -34,15 +34,15 @@ comment:
 waline:
   enable: true
   serverURL: https://blog.waline.littlekan.ml/
-  visitor: true
   comment: true
   emoji:
     - https://fastly.jsdelivr.net/gh/walinejs/emojis@latest/bilibili/
     - https://fastly.jsdelivr.net/gh/walinejs/emojis@latest/weibo/
     - https://fastly.jsdelivr.net/gh/walinejs/emojis@latest/qq/
-  locale:
-    placeholder: 填写邮箱，可以收到回复通知哦～
-  requiredMeta: [nick]
+  lang: zh-CN
+  dark: auto
+  login: enable
+  requiredMeta: [nick, mail]
 
 github_issues:
   enable: false
