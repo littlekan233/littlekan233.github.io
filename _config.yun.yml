@@ -4,11 +4,11 @@ avatar:
   url: /images/avatar.jpg
   status:
     enable: true
-    emoji: 🌑
-    message: Looking for dawn.
+    emoji: 🤓
+    message: Learning...
 
 reward:
-  enable: true
+  enable: false
   comment: 我很可爱，请给我钱
   methods:
     - name: 支付宝
@@ -27,9 +27,8 @@ reward:
 comment:
   candidates:
     - waline
-    # - giscus
-  tips:
-    - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/YunYouJun/yunyoujun.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。
+  tips: 
+    - 文章有问题？欢迎给我提交 <a href="https://github.com/littlekan233/littlekan233.github.io/issues">Issues</a> 或 <a href="https://github.com/littlekan233/littlekan233.github.io/pull">PR</a> ！
 
 waline:
   enable: true
