@@ -1,7 +1,7 @@
 mode: auto
 
 avatar:
-  url: /images/avatar.jpg
+  url: https://assets-cdn.littlekan.ml/images/avatar.jpg
   status:
     enable: true
     emoji: 🤓
@@ -23,6 +23,8 @@ reward:
       path: https://cdn.yunyoujun.cn/img/donate/wechatpay-qrcode.jpg
       color: '#2DC100'
       icon: ri:wechat-pay-line
+
+favicon: https://assets-cdn.littlekan.ml/images/avatar.jpg
 
 comment:
   candidates:
