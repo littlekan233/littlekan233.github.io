@@ -73,15 +73,18 @@ footer:
     title: 云游君的赞助者们
   beian:
     enable: false
-    icp: 苏ICP备17038157号
   support:
-    enable: false
-    title: 又拍云
+    enable: true
+    title: 腾讯云
     link: https://www.upyun.com
-    logo: https://cdn.yunyoujun.cn/img/logo/upyun-logo.png
+    logo: https://assets-cdn.littlekan.ml/images/qcloud.svg
     prefix: 本网站由
-    suffix: 提供 CDN 加速
-  custom_text:
+    suffix: 提供 CDN 加速及存储服务
+  live_time:
+    enable: true
+    prefix: 本小破站已艰难运行
+    suffix: <u>行行好给我点money吧</u>
+    start_time: 2022-08-04T00:00:00
 
 engine_search:
   enable: false
@@ -96,7 +99,7 @@ google_adsense:
 
 post_edit:
   enable: true
-  url: https://github.com/YunYouJun/yunyoujun.github.io/tree/hexo/source/
+  url: https://github.com/littlekan233/littlekan233.github.io/tree/hexo/source/
 
 albums:
   enable: true
@@ -105,24 +108,10 @@ girls:
   enable: true
 
 tags:
-  动画: crimson
-  漫画: orange
-  Parcel: '#21374b'
-  学习: saddlebrown
-  MAD: crimson
-  教程: royalblue
-  笔记: dimgray
-  分享: '#0078e7'
-  随笔: mediumpurple
-  Blender: '#d04d2d'
-  Linux: '#2577b1'
-  中传: '#ccb44b'
-  部落: '#DD306A'
-  科幻: midnightblue
-  蚂蚁森林: '#54a892'
+  MC: '#99FF33'
 
 categories:
-  云游的小视频: '#FB7299'
+  weeaxe: '#663300'
 
 banner:
   enable: true
