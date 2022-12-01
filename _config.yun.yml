@@ -1,9 +1,11 @@
 mode: auto
 
 head:
+  css:
+    daonian: /daonian.css
   js:
     base:
-      - "/daonian.js"
+      - /daonian.js
 
 avatar:
   url: https://assets-cdn.littlekan.ml/images/avatar.jpg

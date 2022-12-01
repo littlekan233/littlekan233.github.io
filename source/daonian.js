@@ -1,1 +1,1 @@
-var enable=true;if(enable){document.body.style.filter = "grayscale(1)";}
+var enable=true;if(enable){document.body.id="daonian";}
