@@ -1,5 +1,10 @@
 mode: auto
 
+head:
+  js:
+    base:
+      - "/daonian.js"
+
 avatar:
   url: https://assets-cdn.littlekan.ml/images/avatar.jpg
   status:
