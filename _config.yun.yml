@@ -1,12 +1,5 @@
 mode: auto
 
-head:
-  css:
-    daonian: /daonian.css
-  js:
-    base:
-      - /daonian.js
-
 avatar:
   url: https://assets-cdn.littlekan.ml/images/avatar.jpg
   status:
@@ -74,16 +67,12 @@ giscus:
   theme: light
 
 footer:
-  since: 2022
-  icon:
-    url: https://sponsors.yunyoujun.cn
-    title: 云游君的赞助者们
+  since: 2022-present
   beian:
     enable: false
   support:
     enable: true
-    title: 腾讯云
-    link: https://www.upyun.com
+    title: Netlify & GitHub
     logo: https://assets-cdn.littlekan.ml/images/qcloud.svg
     prefix: 本网站由
     suffix: 提供 CDN 加速及存储服务
@@ -106,7 +95,7 @@ google_adsense:
 
 post_edit:
   enable: true
-  url: https://github.com/littlekan233/littlekan233.github.io/tree/hexo/source/
+  url: https://github.com/littlekan233/littlekan233.github.io/master/source/
 
 albums:
   enable: true
