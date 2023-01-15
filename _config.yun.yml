@@ -67,7 +67,7 @@ giscus:
   theme: light
 
 footer:
-  since: 2022-present
+  since: 2022
   beian:
     enable: false
   support:
