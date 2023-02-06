@@ -75,7 +75,7 @@ footer:
     prefix: 本小破站已艰难运行
     suffix: <del>行行好给我点money吧</del>
     start_time: 2022-08-04T00:00:00
-  custom_text: "<a href="https://icp.gov.moe/?keyword=20230084" target="_blank">萌ICP备20230084号</a>"
+  custom_text: "<a href=\"https://icp.gov.moe/?keyword=20230084\" target=\"_blank\">萌ICP备20230084号</a>"
 
 engine_search:
   enable: false
