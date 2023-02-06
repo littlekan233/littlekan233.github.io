@@ -70,17 +70,12 @@ footer:
   since: 2022
   beian:
     enable: false
-  support:
-    enable: true
-    title: Netlify & GitHub
-    logo: https://assets-cdn.littlekan.ml/images/qcloud.svg
-    prefix: 本网站由
-    suffix: 提供 CDN 加速及存储服务
   live_time:
     enable: true
     prefix: 本小破站已艰难运行
-    suffix: <u>行行好给我点money吧</u>
+    suffix: <del>行行好给我点money吧</del>
     start_time: 2022-08-04T00:00:00
+  custom_text: "<a href="https://icp.gov.moe/?keyword=20230084" target="_blank">萌ICP备20230084号</a>"
 
 engine_search:
   enable: false
