@@ -33,12 +33,14 @@ jobs:
           node-version: "18.x"
       - name: Fetch website
         run: git clone https://littlekan233:${{ secrets.REPOPAT }}@github.com/littlekan233/website
-      - name: Enter Directory
-        run: cd website
       - name: Install Dependencies
-        run: npm install
+        run: |
+          cd website
+          npm install
       - name: Build Website
-        run: npm run build
+        run: |
+          cd website
+          npm run build
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
       - name: Setup Pages
